@@ -27,9 +27,9 @@ const useData = (term) => {
     }
   };
   useEffect(() => {
-    setTimeout(() => searchApi("pasta"), 2000);
+    setTimeout(() => searchApi(term), 3000);
   }, [term]);
-  console.log(results);
+  //   console.log(results);
   return [results, loading, isError];
 };
 export default useData;

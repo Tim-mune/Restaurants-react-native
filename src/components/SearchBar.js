@@ -31,6 +31,8 @@ const styles = StyleSheet.create({
     marginTop: 20,
     padding: 5,
     position: "relative",
+    marginBottom: 10,
+    backfaceVisibility: "hidden",
   },
   text: {
     fontSize: 25,
